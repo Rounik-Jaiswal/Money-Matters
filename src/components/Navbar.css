@@ -1,0 +1,107 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+
+}
+
+.logo img {
+    height: 70%;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.logo h1 {
+    font-size: 30px;
+}
+
+/* #links { 
+    display: flex;
+    width: 45%;
+    padding: 10px;
+}
+
+#links li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: larger;
+}
+
+#links li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+#links li a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    border-radius: 15px;
+    background-color: #66FF00;
+    transform-origin: bottom left;
+    transition: width 0.07s ease-in-out;
+}
+
+#links li a:hover::before {
+    width: 65%;
+    position: absolute;
+}
+
+#links li a:hover {
+    color: #66FF00;
+} */
+
+#links{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#links button{
+    color: white;
+    border: none;
+    font-size: 16pt;
+}
+
+#links button::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    border-radius: 15px;
+    background-color: #66FF00;
+    transform-origin: bottom left;
+    transition: width 0.07s ease-in-out;
+}
+
+#links button:hover{
+    color: #66FF00;
+}
+
+#links button:hover::before{
+    width: auto;
+    position: absolute;
+}
