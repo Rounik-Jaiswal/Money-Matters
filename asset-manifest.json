@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Money-Matters/static/css/main.cb377386.css",
+    "main.js": "/Money-Matters/static/js/main.604b1e23.js",
+    "static/media/mainlogo.png": "/Money-Matters/static/media/mainlogo.71f1233ff86e84a5b5e0.png",
+    "static/media/logo4.png": "/Money-Matters/static/media/logo4.a1dec1e601cbfdc0069f.png",
+    "index.html": "/Money-Matters/index.html",
+    "main.cb377386.css.map": "/Money-Matters/static/css/main.cb377386.css.map",
+    "main.604b1e23.js.map": "/Money-Matters/static/js/main.604b1e23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb377386.css",
+    "static/js/main.604b1e23.js"
+  ]
+}
